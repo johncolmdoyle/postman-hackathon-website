@@ -7,7 +7,6 @@ import * as acm from '@aws-cdk/aws-certificatemanager';
 import * as targets from '@aws-cdk/aws-route53-targets';
 
 const websiteDistSourcePath = './website/public';
-const deploymentVersion = '1.0.0';
 
 interface CdkPostmanStackProps extends cdk.StackProps {
   readonly certificate: acm.ICertificate;
@@ -26,15 +25,13 @@ export class PostmanHackathonWebsiteStack extends cdk.Stack {
     new BucketDeployment(this, 's3Deployment', {
       sources: [Source.asset(websiteDistSourcePath)],
       destinationBucket: sourceBucket,
-      destinationKeyPrefix: `${deploymentVersion}/`,
     });
 
     const distribution = new CloudFrontWebDistribution(this, 'hackathonCloudfrontCDN', {
       originConfigs: [
         {
           s3OriginSource: {
-            s3BucketSource: sourceBucket.bucketName,
-            originPath: `${deploymentVersion}/`
+            s3BucketSource: sourceBucket,
           },
           behaviors : [ {isDefaultBehavior: true}]
         }

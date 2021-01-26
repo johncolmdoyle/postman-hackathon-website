@@ -15,30 +15,9 @@ toc: true
 
 ## Get started
 
-There are two main ways to get started with Doks:
-
-### Quick Start
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
-
-One page summary of how to utilize the API Network. [Quick Start →]({{< ref "quick-start" >}})
-
-## Go further
-
-Recipes, Reference Guides, Extensions, and Showcase.
+Request an API key from [api-network](https://app.api-network.info).
 
 ### Postman API Workspace
 
 Information on the public Postman API Workspace [Recipes →](https://www.postman.com/ArtWolf/workspace/global-api-network-test/overview)
 
-### Reference Guides
-
-Full list of supported endpoints. [Reference Guides →]({{< ref "how-to-contribute" >}})
-
-## Contributing
-
-Find out how to contribute to API Network. [Contributing →]({{< ref "how-to-contribute" >}})
-
-## Help
-
-Get help on API Network. [Help →]({{< ref "how-to-update" >}})

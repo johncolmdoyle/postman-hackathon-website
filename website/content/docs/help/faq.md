@@ -13,36 +13,7 @@ weight: 630
 toc: true
 ---
 
-## Hyas?
+## Postman Public Workspace
 
-Doks is a [Hyas theme](https://gethyas.com/themes/) build by the creator of Hyas.
+Postman released a new feature, their [Public Workspaces](https://blog.postman.com/introducing-postman-public-workspaces/) back in November 2020.
 
-## Footer notice?
-
-Please keep it in place.
-
-## Keyboard shortcuts for search?
-
-- focus: `/`
-- select: `↓` and `↑`
-- open: `Enter`
-- close: `Esc`
-
-## Other documentation?
-
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
-
-## Can I get support?
-
-Create a topic:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-
-## Contact the creator?
-
-Send `h-enk` a message:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
